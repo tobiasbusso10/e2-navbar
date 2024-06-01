@@ -10,42 +10,67 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
   background-color: black;
   color: white;
-  height: 100px;
+  height: 120px;
+}
+
+header h2 {
+  font-weight: 200;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
 
 .logo-icon {
   display: flex;
   align-items: center;
-  height: 100px;
-  margin: 0 20px;
+  height: 100%;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
-}
-
-header h2 {
-  font-weight: 200;
+  gap: 30px;
 }
 
 .img {
-  height: 95%;
-  margin: 0 50px;
-  border-radius: 25px;
+  height: 100%;
 }
 
-header ul {
+form {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 40px 100px;
-  gap: 30px;
-  list-style: none;
+  position: relative;
+}
+
+form i {
+  padding: 0 5px;
+  color: black;
+  position: absolute;
+}
+
+form input {
+  padding: 0 20px;
+  height: 30px;
+  width: 350px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }
 
 .nav-links {
   text-decoration: underline;
   color: white;
   font-size: 14px;
+}
+
+.cart {
+  text-decoration: none;
 }

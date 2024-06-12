@@ -7,12 +7,20 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: rgba(27, 25, 25, 1);
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 60px;
-  background-color: black;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(27, 25, 25, 1) 80%
+  );
   color: white;
   height: 70px;
 }
@@ -39,6 +47,10 @@ header ul {
 
 .img {
   height: 100%;
+}
+.img:hover {
+  height: 115%;
+  transition: 0.9s;
 }
 
 form {
@@ -73,4 +85,77 @@ nav {
 
 .cart {
   text-decoration: none;
+}
+
+.title {
+  padding: 50px 50px 0;
+  max-width: 100%;
+  height: 500px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title h1 {
+  font-size: 1.5rem;
+  font-weight: 450;
+}
+
+.img-title {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.img-title1 {
+  width: 300px;
+}
+
+.img-title1,
+.img-title2,
+.img-title3 {
+  max-width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.catalogue {
+  max-width: 100%;
+  height: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.30575980392156865) 3%,
+    rgba(27, 25, 25, 1) 100%
+  );
+}
+
+.search-items {
+  padding: 10px 0;
+  margin: auto;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.items {
+  height: 50px;
+}
+
+.items-text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+}
+
+.items:hover {
+  height: 60px;
+  transition: 0.5s;
 }

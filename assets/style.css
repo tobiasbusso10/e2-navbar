@@ -177,8 +177,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 0 0 50px;
-  color: grey;
-  text-decoration: underline;
+  color: white;
 }
 
 .top-ventas {
